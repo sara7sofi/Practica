@@ -1,0 +1,62 @@
+//$mifondo: 
+$colorTitulo: white;
+$fondo : rgb(64, 187, 209);
+$parrafo:white;
+$nombreperro: font-family 'Bubblegum Sans', cursive;
+$letra: rgb(45, 114, 218);
+
+
+h1 {
+    color: $colorTitulo;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+body {
+    background-color: $fondo;
+}
+
+p   {
+    color:$parrafo
+}
+
+.texto {
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+}
+
+.nombreperro {
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    color:$parrafo;
+    font-size:30px
+}
+
+.titulo {
+    color: $colorTitulo;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+}
+
+.descripcion {
+    color: $parrafo;
+    font-family: 'Pangolin', cursive;
+
+}
+.nombre {
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    color:$letra;
+    font-size:30px
+
+}
+.descripcion1 {
+    color: black;
+    font-family: 'Pangolin', cursive;
+
+}
+
+img {
+    margin:auto
+}

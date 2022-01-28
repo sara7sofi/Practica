@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Para añadir imagenes-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+    <title>Centro de adopción</title>
+     <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container mt-3">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="info.html">Información</a>
+      </li>
+     
+      <li class="nav-item dropdown">  
+        <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="centro.html">¿Cómo adoptar?</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Antes de adoptar</a></li>
+          <li><a class="dropdown-item" href="#">Pasos para adoptar</a></li>
+        </ul>
+      </li>
+   
+      <li class="nav-item dropdown">
+        <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="animales.html">Animales en adopción</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Perros</a></li>
+          <li><a class="dropdown-item" href="#">Gatos</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="patrocinadores.html">Patrocinadores</a>
+      </li>
+      <li><!--Buscar falta modificar tamaño-->
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form></li>       
+    </ul>
+  </div>
+
+    <div class="has-bg-img bg-purple bg-blend-multiply">
+      <img class="bg-img" src="img/fondo.jpg" alt="fondo">
+
+
+    </div>
+
+
+
+
+
+
+
+
+   <!--Paginacion--> 
+   <div class="container mt-1">
+    <h2>Pagination - Active State</h2>
+    <p>Add class .active to let the user know which page he/she is on:</p>
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </div>
+
+  <div class="container mt-5">
+    <button type="button" class="btn btn-danger btn-lg" onclick="document.location='index.html'">Inicio</button>
+  </div>
+  <!--FOOTER-->
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <p class="f1">Todos los derechos reservados</p>
+    <p class="f2">Web realizada por Sara Arias Menéndez</p>
+    <p class="f3">Síguenos en las redes sociales</p>
+    <br>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-tiktok"></i>
+  </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <title>Información</title>
+      <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" href="estilos.css"> 
+</head>
+<body>
+  <!--Menú -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <div class="container mt-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="info.html">Información</a>
+            </li>
+            <li class="nav-item dropdown">  
+              <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="centro.html">¿Cómo adoptar?</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://nuevavida-adopciones.org/antes-de-adoptar">Antes de adoptar</a></li>
+                <li><a class="dropdown-item" href="https://nuevavida-adopciones.org/como-adoptar">Pasos para adoptar</a></li>
+              </ul>
+            </li>
+        
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" >Animales en adopción</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="animales.html">Perros</a></li>
+                <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="patrocinadores.html">Patrocinadores</a>
+            </li>
+            <li>
+              <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Buscar">
+                <button class="btn btn-primary" type="button">Buscar</button>
+              </form></li>       
+          </ul>
+        </div>
+    </div>
+  </nav> 
+    <!--Pulsa y muestra informacion-->
+    <div class="container mt-3">
+      <div class="titulo">Nuestra asociación</div>
+      <img src="img/infofoto.jpg" alt="Royal" width="50%" class="mx-auto d-block">
+
+      <div class="descripcion1"><p>Formamos parte de NUEVAVIDA-Adopciones. No tenemos ningún tipo ayuda económica del Estado español y el total del dinero obtenido por donaciones voluntarias, socios, eventos, adopciones o publicidad en la página, es destinado íntegramente al cuidado y rehabilitación de nuestros animales.</p></div>
+        <a href="#demo" class="btn btn-primary" data-bs-toggle="collapse">Saber más</a>
+        <div id="demo" class="collapse">
+         <div class="descripcion1">NUEVAVIDA Adopciones es una asociación sin ánimo de lucro nacida con la misión de ayudar a los casi 140.000 perros, gatos y otros pequeños animales que son abandonados cada año en España. Nuestra causa es la misma que la de todas aquellas protectoras cuyo único fin e interés es rescatar animales y ofrecerles un futuro mucho mejor que el que pudieran tener en su situación anterior.
+
+          NUEVAVIDA Adopciones empezó hace 10 años, con la ilusión de varias personas por salvar algunos perros de la muerte en varias perreras. Nunca imaginaron entonces que llegarían a ayudar a más de 10.000 animales a encontrar a una vida nueva y feliz integrados en un hogar!
+          
+          NUEVAVIDA Adopciones tiene un albergue con capacidad para acoger a aproximadamente 60 perros, y además cuenta con una amplia red de casas de acogida, guarderías y algunas residencias para unos 40 perros más, y para todos nuestros gatos y conejos. A día de hoy tenemos tutelados, aproximadamente, unos 250 animales entre perros, gatos y conejos. Pretendemos que todos nuestros animales sean adoptados y encuentren un hogar definitivo con las condiciones necesarias para poder disfrutar de una “nueva vida” feliz y plena.</div>
+        </div>
+      </div>
+    
+      <!--Se hace clic y muestra un cuadro de texto-->
+      <div class="container mt-3">
+        <h3>Contacto</h3>
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          Datos
+        </button>
+      </div>
+      
+      <!-- El modelo -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Cabecera -->
+            <div class="modal-header">
+              <h4 class="modal-title">Datos de contacto</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Cuerpo-->
+            <div class="modal-body">
+              <p class="descripcion1">Dirección: En un lugar muy muy lejano..</p>
+              <p class="descripcion1">Teléfono: 123456780 </p>
+            </div>
+      
+            <!-- Final -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    
+  <!--FOOTER-->
+  <div class="container mt-7">
+    <div class="d-grid">
+      <button type="button" class="btn btn-danger btn-lg " onclick="document.location='index.html'">Inicio</button>
+    </div>
+  </div>
+
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <p class="f1">Todos los derechos reservados</p>
+    <p class="f2">Web realizada por Sara Arias Menéndez</p>
+    <p class="f3">Síguenos en las redes sociales</p>
+    <br>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-tiktok"></i>
+  </div>
+</body>
+</html>

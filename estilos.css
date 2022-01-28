@@ -1,0 +1,54 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+}
+
+body {
+  background-color: #40bbd1;
+}
+
+p {
+  color: white;
+}
+
+.texto {
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
+}
+
+.nombreperro {
+  font-family: 'Pangolin', cursive;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+}
+
+.descripcion {
+  color: white;
+  font-family: 'Pangolin', cursive;
+}
+
+.nombre {
+  font-family: 'Pangolin', cursive;
+  text-align: center;
+  color: #2d72da;
+  font-size: 30px;
+}
+
+.descripcion1 {
+  color: black;
+  font-family: 'Pangolin', cursive;
+}
+
+img {
+  margin: auto;
+}
+/*# sourceMappingURL=estilos.css.map */
